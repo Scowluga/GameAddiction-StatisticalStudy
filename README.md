@@ -1,7 +1,7 @@
 Floppy Bird
 =========
 Idk Michelle 
-
+https://scowluga.github.io/GameAddiction-StatisticalStudy/.
 All rights to 
 https://github.com/nebez/floppybird
 
