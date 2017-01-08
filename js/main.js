@@ -14,7 +14,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 */
-var debugmode = true; 
+var debugmode = false; 
 
 var isEasy = getEasy(); 
 var hasScore = getScore(); 
@@ -26,13 +26,13 @@ if (debugmode) {
 }
 
 function getEasy() {
-   var num = (Math.floor(Math.random() * 2)); 
+   var num = (Math.floor(Math.random() * 3)); 
    if (num == 0) { 
-      return true; 
+      return 80; 
    } else if (num == 1) {
-      return false; 
-   } else {
-      alert("rip math"); 
+      return 90; 
+   } else if (num == 2) {
+      return 100;
    }
 }
 
@@ -52,7 +52,8 @@ function survey() {
    var seconds = (endDate.getTime() - startDate.getTime()) / 1000;
 
    // seconds, isEasy, hastScore
-   window.location.href = 'http://www.facebook.com';
+   var url = "https://docs.google.com/forms/d/e/1FAIpQLSfcg5uqoACRs4cluQueHuFbD8XY58id-KHNVl1Mml_2u06UzA/viewform?entry.1875845461&entry.912269766&entry.650234003="+rounds+"&entry.1889846122="+seconds+"&entry.562266349="+isEasy+"&entry.391056392="+hasScore;
+   window.location.href = url;
 }
 
 var states = Object.freeze({
@@ -73,11 +74,8 @@ var flyArea = $("#flyarea").height();
 var score = 0;
 var highscore = 0;
 
-if (isEasy) {
-   var pipeheight = 120;
-} else {
-   var pipeheight = 90; 
-}
+var pipeheight = isEasy; // Normally 90;
+
 var pipewidth = 52;
 var pipes = new Array();
 
