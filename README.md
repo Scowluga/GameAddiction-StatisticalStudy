@@ -1,21 +1,17 @@
-Floppy Bird
-=========
-Idk Michelle 
-https://scowluga.github.io/GameAddiction-StatisticalStudy/.
-All rights to 
-https://github.com/nebez/floppybird
+<h1>What makes a repetitve game addicting?</h1>
+<h3>Introduction</h3>
+<p>With the age of smart phones, a trend has appeared in the gaming world: one of short, repetitve, and addictive games. What makes these games so successful? Does a game's difficulty affect it's replayability? How about the presence of a high score?</p>
+<p><strong>Hypothesis: </strong><u>A game without a high score, or benchmark to beat, will quickly become mundane and the player will lose interest. Likewise, if the game is too hard, or too easy, they will quickly lose interest and stop playing.</u></p>
+<h3>Study</h3>
+<p>Data will be collected from this short interactive survey: a website followed by a prepopulated Google form. </p>
+<p>The data will then be analyzed using a variety of techniques. </p>
+<a target="_blank" href="https://scowluga.github.io/SunkCost-StatisticalStudy/website">Go to Website</a>
 
+
+<h3>Licensing</h3>
+I do not in any way own flappy bird, or this recreation of it. All rights go to Nebez Briefkani at 
+https://github.com/nebez/floppybird
 License
 =====
 Copyright 2014 Nebez Briefkani
 
-Licensed under the Apache License, Version 2.0 (the "License");  
-you may not use this file except in compliance with the License.  
-You may obtain a copy of the License at  
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software  
-distributed under the License is distributed on an "AS IS" BASIS,  
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  
-See the License for the specific language governing permissions and  
-limitations under the License.
