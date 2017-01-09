@@ -307,15 +307,6 @@ Screen - Game
    cursor: pointer;
 }
 
-#finish {
-   position: absolute; 
-   height: 50px; 
-   width: 80px; 
-   left: 3px; 
-   bottom: 10%; 
-}
-
-
 #gameover {
    position: absolute;
    opacity: 0;
@@ -405,9 +396,9 @@ Screen - Game
    background-image: url('../assets/pipe-up.png');
 }
 
-#footer
-{
+#footer{
    position: absolute;
+   display: inline-block;
    bottom: 3px;
    left: 3px;
 }
