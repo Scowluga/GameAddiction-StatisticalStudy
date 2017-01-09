@@ -14,7 +14,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 */
-var debugmode = false; 
+var debugmode = true; 
 
 var isEasy = getEasy(); 
 var hasScore = getScore(); 
@@ -26,13 +26,31 @@ if (debugmode) {
 }
 
 function getEasy() {
-   var num = (Math.floor(Math.random() * 3)); 
-   if (num == 0) { 
-      return 80; 
-   } else if (num == 1) {
-      return 90; 
-   } else if (num == 2) {
-      return 100;
+   var num = (Math.floor(Math.random() * 7)); 
+   switch(num) {
+      case 0: 
+         return 75; 
+         break;
+      case 1: 
+         return 80; 
+         break;
+      case 2: 
+         return 85; 
+         break;
+      case 3: 
+         return 90; 
+         break;
+      case 4: 
+         return 95; 
+         break;
+      case 5: 
+         return 100; 
+         break;
+      case 6: 
+         return 105; 
+         break;
+      default: 
+         return 90;
    }
 }
 
