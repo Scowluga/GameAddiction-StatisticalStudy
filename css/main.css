@@ -403,6 +403,12 @@ Screen - Game
    left: 3px;
 }
 
+#finish {
+   width: 100px;
+   height: 50px;
+
+}
+
 #footer a,
 #footer a:link,
 #footer a:visited,
