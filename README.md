@@ -5,7 +5,7 @@
 <h3>Study</h3>
 <p>Data will be collected from this short interactive survey: a website followed by a prepopulated Google form. </p>
 <p>The data will then be analyzed using a variety of techniques. </p>
-<a target="_blank" href="https://scowluga.github.io/GameAddiction-StatisticalStudy/">Go to Website</a>
+<p>Data collection has now closed. Thank you to those who participated</p>
 
 
 <h3>Licensing</h3>
